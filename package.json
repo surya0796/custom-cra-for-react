@@ -1,0 +1,25 @@
+{
+  "name": "custom_react_boilerplate",
+  "version": "1.0.0",
+  "description": "Steps to setup React with TS using webpack 1. Create .gitignore file and folders named build and src 2. Enter \"npm init --y\" inside terminal, which creates package.json file. 3. add build and node_modules name inside .gitignore file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3"
+  }
+}
